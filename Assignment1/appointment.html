@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Онлайн запись - V Akkurate</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="./images/V Akkurate.io">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./main.html">На главную</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="appointment">
+        <h2>Записаться</h2>
+        <p>Заполни данные для записи</p>
+        <form>
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Электронная почта:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Номер телефона:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="service">Выберите услугу:</label>
+            <select id="service" name="service">
+                <option value="Haircut">Стрижка</option>
+                <option value="Beard Trim">Стрижка бороды</option>
+                <option value="Shave">Бритье</option>
+            </select>
+            <label for="master">Выберите Мастера:</label>
+            <select id="master" name="master">
+                <option value="Master1">Бекболат</option>
+                <option value="Master2">Ерасыл</option>
+                <option value="Master3">Иван</option>
+                <option value="Master4">Ерсин</option>
+            </select>
+            
+            <label for="date">Выберите дату:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="time">Выберите удобное время:</label>
+            <input type="time" id="time" name="time" required>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 VAkkurate</p>
+    </footer>
+</body>
+</html>
