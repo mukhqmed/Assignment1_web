@@ -108,17 +108,19 @@ em{
     font-weight: bold;
 }
 form{
-    margin-left: 15px;
-}
-.appointment h2{
-    margin-left: 15px;
-}
-.appointment p{
-    margin-left: 15px;
+    margin-left: 25px;
 }
 .appointment {
-    margin-bottom: 200px;
+    margin-bottom: 80px;
 }
+.appointment h2,p{
+    margin-left: 25px;
+}
+
+.appointment label{
+    margin-top: 20px;
+}
+
 #wh::before{
     content: "📱";
 }
